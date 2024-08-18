@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Crush Day</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('https://raw.githubusercontent.com/DzarelDeveloper/Img/main/CrushDay.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .content {
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        }
+
+        .content h1 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        .content .icon {
+            font-size: 2rem;
+            color: white;
+            cursor: pointer;
+            animation: slide 2s infinite;
+        }
+
+        @keyframes slide {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateX(0);
+            }
+            40% {
+                transform: translateX(10px);
+            }
+            60% {
+                transform: translateX(5px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Haii?Bolehkah</h1>
+        <h1>Aku Ingin Ngomong Serius</h1>
+        <a href="Utama.html"><i class="fas fa-angle-right icon"></i></a>
+    </div>
+</body>
+</html>
